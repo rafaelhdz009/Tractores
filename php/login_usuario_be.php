@@ -50,7 +50,7 @@
                 echo '
                     <script>
                         alert("Usuario no existe, por favor verifique 🧐");
-                        window.location = "indexLog.php";
+                        window.location = "log.php";
                     </script>
                 ';
                 exit;
