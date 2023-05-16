@@ -1,0 +1,168 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+        background-color:#06820b;
+        padding: 20px;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;   
+}
+
+.title{
+    text-align:center;
+    font-size: 40px;
+    color:white;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+.title2{
+    text-align:center;
+    font-size: 40px;
+    color:#06820b;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cont{
+  width: auto;
+  max-width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.cont .card{
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    float: left;
+}
+
+
+.cont .card:hover{
+    transform: translate(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cont .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.cont .card h4{
+    font-weight: 600;
+}
+
+.cont .card p{
+    padding: 0.2rem;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.cont .card a{
+   font-weight: 500;
+   text-decoration: none;
+   color: #fdfdfd;
+}
+
+.cont .card ul{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+}
+
+.buscar{
+    position:relative;
+    padding: 5px;
+}
+
+.buscar input{
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #06820b;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+.btn{
+    position:absolute;
+    top: 0;
+    right: 0;
+    background: #06820b;
+    width: 50px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buscar:hover input{
+    width: 240px;
+}
+
+.buscar input:focus{
+    width: 240px;
+}
+
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  
+  .btnA{
+    display: block; 
+    text-align: center;
+    width: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 50px 200px; 
+    padding: 15px 30px;
+    background-color:#06820b;
+    color:#ffffff;
+    text-decoration: none;
+  }
+
+  .btnA:hover{
+    border: 2px solid #06820b;
+    color:#06820b;
+    
+  }
