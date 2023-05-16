@@ -1,0 +1,106 @@
+body{
+    background-color: rgba(39, 188, 106, 0.8);
+}
+
+#contenedorCabeza{
+    background-color: green;
+}
+
+#titulo{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+.contenedor
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedorCarrito{
+    width: 75%;  
+}
+
+#contenedorProducto{
+    display: flex;
+    border: 3px solid black;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(101, 119, 234),rgba(194, 202, 198, 0.8));
+}
+
+.prodImg{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.imagen{
+    width: 15%;
+}
+
+.producto{
+    margin: 10px;
+    width: 45%;
+}
+
+.cantidad{
+    width: 10%;
+}
+
+#modificar{
+    margin-top: 10px;
+}
+.eliminar{
+    width: 10%;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.total{
+    width: 10%;
+    margin: 10px;
+}
+
+.cuadroTotal{
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 30px;
+}
+
+.cuadroTotal p{
+    text-align: right;
+}
+
+
+@media screen and (max-width: 1084px) {
+    .contenedorCarrito{
+        width: 100%;  
+    }
+
+    .imagen{
+        width: 15%;
+        display: none;
+    }
+    
+    .producto{
+        margin: 10px;
+        width: 30%;
+    }
+    .cantidad{
+        width: 20%;
+    }
+    .eliminar{
+        width: 20%;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .total{
+        width: 20%;
+        margin: 10px;
+    }
+}
